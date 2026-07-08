@@ -1,0 +1,11 @@
+Measurement time, Temperature, Pressure, Phase
+0.0, 273.20, 611.00, ciecz
+10.0, 273.19, 610.90, gaz
+20.0, 273.18, 610.80, mieszana
+30.0, 273.15, 610.70, mieszana
+40.0, 273.17, 610.65, ciecz
+50.0, 273.14, 610.60, ciało stałe
+60.0, 273.16, 610.75, ciecz
+70.0, 273.15, 610.80, gaz
+80.0, 273.19, 610.85, mieszana
+90.0, 273.16, 610.90, gaz

@@ -1,0 +1,9 @@
+sensor id,name,tank,type,unit,measurement frequency,cycle length,measurement accuracy,scaling factor,min operating range,max operating range
+1,Temperatura 1,tank_A,temperatura,K,5,2,0.01,1000,270,310
+2,Ciśnienie 1,tank_A,ciśnienie,Pa,10,2,0.2,1000,600,620
+3,Temperatura 2,tank_B,temperatura,K,10,2,0.005,1000,265,315
+4,Ciśnienie 2,tank_B,ciśnienie,Pa,1,2,0.1,1000,595,625
+5,Temperatura 3,tank_C,temperatura,K,1,2,0.02,1000,268,312
+6,Ciśnienie 3,tank_C,ciśnienie,Pa,5,2,0.15,1000,590,630
+7,Temperatura 4,tank_D,temperatura,K,5,2,0.01,1000,270,300
+8,Ciśnienie 4,tank_D,ciśnienie,Pa,2,2,0.1,1000,580,640

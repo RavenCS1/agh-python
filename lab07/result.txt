@@ -1,0 +1,214 @@
+
+Exercise 1:
+
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:00:00', 'method': 'GET', 'page': 'www.google.com', 'status': 200}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:05:00', 'method': 'POST', 'page': 'www.google.com', 'status': 404}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:10:00', 'method': 'GET', 'page': 'www.github.com', 'status': 200}
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T12:15:00', 'method': 'POST', 'page': 'www.facebook.com', 'status': 503}
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T12:20:00', 'method': 'GET', 'page': 'www.twitter.com', 'status': 200}
+{'ip': '192.168.1.3', 'timestamp': '2023-04-01T12:25:00', 'method': 'POST', 'page': 'www.instagram.com', 'status': 403}
+{'ip': '192.168.1.3', 'timestamp': '2023-04-01T12:30:00', 'method': 'GET', 'page': 'www.github.com', 'status': 200}
+{'ip': '192.168.1.4', 'timestamp': '2023-04-01T12:35:00', 'method': 'GET', 'page': 'www.stackoverflow.com', 'status': 200}
+{'ip': '192.168.1.4', 'timestamp': '2023-04-01T12:40:00', 'method': 'POST', 'page': 'www.google.com', 'status': 500}
+{'ip': '192.168.1.5', 'timestamp': '2023-04-01T12:45:00', 'method': 'GET', 'page': 'www.reddit.com', 'status': 200}
+{'ip': '192.168.1.5', 'timestamp': '2023-04-01T12:50:00', 'method': 'GET', 'page': 'www.youtube.com', 'status': 400}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:55:00', 'method': 'POST', 'page': 'www.google.com', 'status': 200}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T13:00:00', 'method': 'GET', 'page': 'www.reddit.com', 'status': 404}
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T13:05:00', 'method': 'GET', 'page': 'www.instagram.com', 'status': 200}
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T13:10:00', 'method': 'POST', 'page': 'www.twitter.com', 'status': 500}
+
+
+
+Exercise 2:
+
+('192.168.1.1', '2023-04-01T12:00:00', 'GET', 'www.google.com', 200)
+('192.168.1.1', '2023-04-01T12:05:00', 'POST', 'www.google.com', 404)
+('192.168.1.1', '2023-04-01T12:10:00', 'GET', 'www.github.com', 200)
+('192.168.1.2', '2023-04-01T12:15:00', 'POST', 'www.facebook.com', 503)
+('192.168.1.2', '2023-04-01T12:20:00', 'GET', 'www.twitter.com', 200)
+('192.168.1.3', '2023-04-01T12:25:00', 'POST', 'www.instagram.com', 403)
+('192.168.1.3', '2023-04-01T12:30:00', 'GET', 'www.github.com', 200)
+('192.168.1.4', '2023-04-01T12:35:00', 'GET', 'www.stackoverflow.com', 200)
+('192.168.1.4', '2023-04-01T12:40:00', 'POST', 'www.google.com', 500)
+('192.168.1.5', '2023-04-01T12:45:00', 'GET', 'www.reddit.com', 200)
+('192.168.1.5', '2023-04-01T12:50:00', 'GET', 'www.youtube.com', 400)
+('192.168.1.1', '2023-04-01T12:55:00', 'POST', 'www.google.com', 200)
+('192.168.1.1', '2023-04-01T13:00:00', 'GET', 'www.reddit.com', 404)
+('192.168.1.2', '2023-04-01T13:05:00', 'GET', 'www.instagram.com', 200)
+('192.168.1.2', '2023-04-01T13:10:00', 'POST', 'www.twitter.com', 500)
+
+
+
+Exercise 3:
+
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:00:00', 'method': 'GET', 'page': 'www.google.com', 'status': 200}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:10:00', 'method': 'GET', 'page': 'www.github.com', 'status': 200}
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T12:20:00', 'method': 'GET', 'page': 'www.twitter.com', 'status': 200}
+{'ip': '192.168.1.3', 'timestamp': '2023-04-01T12:30:00', 'method': 'GET', 'page': 'www.github.com', 'status': 200}
+{'ip': '192.168.1.4', 'timestamp': '2023-04-01T12:35:00', 'method': 'GET', 'page': 'www.stackoverflow.com', 'status': 200}
+{'ip': '192.168.1.5', 'timestamp': '2023-04-01T12:45:00', 'method': 'GET', 'page': 'www.reddit.com', 'status': 200}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:55:00', 'method': 'POST', 'page': 'www.google.com', 'status': 200}
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T13:05:00', 'method': 'GET', 'page': 'www.instagram.com', 'status': 200}
+
+
+
+Exercise 4:
+
+
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:00:00', 'method': 'GET', 'page': 'www.google.com', 'status': 200}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:05:00', 'method': 'POST', 'page': 'www.google.com', 'status': 404}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:10:00', 'method': 'GET', 'page': 'www.github.com', 'status': 200}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:55:00', 'method': 'POST', 'page': 'www.google.com', 'status': 200}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T13:00:00', 'method': 'GET', 'page': 'www.reddit.com', 'status': 404}
+
+
+
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T12:15:00', 'method': 'POST', 'page': 'www.facebook.com', 'status': 503}
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T12:20:00', 'method': 'GET', 'page': 'www.twitter.com', 'status': 200}
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T13:05:00', 'method': 'GET', 'page': 'www.instagram.com', 'status': 200}
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T13:10:00', 'method': 'POST', 'page': 'www.twitter.com', 'status': 500}
+
+
+
+{'ip': '192.168.1.3', 'timestamp': '2023-04-01T12:25:00', 'method': 'POST', 'page': 'www.instagram.com', 'status': 403}
+{'ip': '192.168.1.3', 'timestamp': '2023-04-01T12:30:00', 'method': 'GET', 'page': 'www.github.com', 'status': 200}
+
+
+
+{'ip': '192.168.1.4', 'timestamp': '2023-04-01T12:35:00', 'method': 'GET', 'page': 'www.stackoverflow.com', 'status': 200}
+{'ip': '192.168.1.4', 'timestamp': '2023-04-01T12:40:00', 'method': 'POST', 'page': 'www.google.com', 'status': 500}
+
+
+
+{'ip': '192.168.1.5', 'timestamp': '2023-04-01T12:45:00', 'method': 'GET', 'page': 'www.reddit.com', 'status': 200}
+{'ip': '192.168.1.5', 'timestamp': '2023-04-01T12:50:00', 'method': 'GET', 'page': 'www.youtube.com', 'status': 400}
+
+
+
+
+
+Exercise 5:
+
+
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:00:00', 'method': 'GET', 'page': 'www.google.com', 'status': 200}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:05:00', 'method': 'POST', 'page': 'www.google.com', 'status': 404}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:10:00', 'method': 'GET', 'page': 'www.github.com', 'status': 200}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:55:00', 'method': 'POST', 'page': 'www.google.com', 'status': 200}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T13:00:00', 'method': 'GET', 'page': 'www.reddit.com', 'status': 404}
+
+
+
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T12:15:00', 'method': 'POST', 'page': 'www.facebook.com', 'status': 503}
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T12:20:00', 'method': 'GET', 'page': 'www.twitter.com', 'status': 200}
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T13:05:00', 'method': 'GET', 'page': 'www.instagram.com', 'status': 200}
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T13:10:00', 'method': 'POST', 'page': 'www.twitter.com', 'status': 500}
+
+
+
+
+
+Exercise 6:
+
+
+list/tuple is empty
+
+
+
+list/tuple is empty
+
+
+
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T13:00:00', 'method': 'GET', 'page': 'www.reddit.com', 'status': 404}
+
+
+
+{'ip': '192.168.1.3', 'timestamp': '2023-04-01T12:30:00', 'method': 'GET', 'page': 'www.github.com', 'status': 200}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T13:00:00', 'method': 'GET', 'page': 'www.reddit.com', 'status': 404}
+
+
+
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:00:00', 'method': 'GET', 'page': 'www.google.com', 'status': 200}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:05:00', 'method': 'POST', 'page': 'www.google.com', 'status': 404}
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T13:10:00', 'method': 'POST', 'page': 'www.twitter.com', 'status': 500}
+
+
+
+{'ip': '192.168.1.3', 'timestamp': '2023-04-01T12:30:00', 'method': 'GET', 'page': 'www.github.com', 'status': 200}
+{'ip': '192.168.1.5', 'timestamp': '2023-04-01T12:45:00', 'method': 'GET', 'page': 'www.reddit.com', 'status': 200}
+{'ip': '192.168.1.1', 'timestamp': '2023-04-01T12:55:00', 'method': 'POST', 'page': 'www.google.com', 'status': 200}
+{'ip': '192.168.1.2', 'timestamp': '2023-04-01T13:05:00', 'method': 'GET', 'page': 'www.instagram.com', 'status': 200}
+
+
+Exercise 7:
+
+Window size: 6
+
+window :	(0, 5)
+method :	{'GET': 3, 'POST': 3}
+page   :	{'www.google.com': 2, 'www.github.com': 1, 'www.facebook.com': 1, 'www.twitter.com': 1, 'www.instagram.com': 1}
+status :	{200: 3, 404: 1, 503: 1, 403: 1}
+
+
+
+window :	(1, 6)
+method :	{'POST': 3, 'GET': 3}
+page   :	{'www.google.com': 1, 'www.github.com': 2, 'www.facebook.com': 1, 'www.twitter.com': 1, 'www.instagram.com': 1}
+status :	{404: 1, 200: 3, 503: 1, 403: 1}
+
+
+
+window :	(2, 7)
+method :	{'GET': 4, 'POST': 2}
+page   :	{'www.github.com': 2, 'www.facebook.com': 1, 'www.twitter.com': 1, 'www.instagram.com': 1, 'www.stackoverflow.com': 1}
+status :	{200: 4, 503: 1, 403: 1}
+
+
+
+window :	(3, 8)
+method :	{'POST': 3, 'GET': 3}
+page   :	{'www.facebook.com': 1, 'www.twitter.com': 1, 'www.instagram.com': 1, 'www.github.com': 1, 'www.stackoverflow.com': 1, 'www.google.com': 1}
+status :	{503: 1, 200: 3, 403: 1, 500: 1}
+
+
+
+window :	(4, 9)
+method :	{'GET': 4, 'POST': 2}
+page   :	{'www.twitter.com': 1, 'www.instagram.com': 1, 'www.github.com': 1, 'www.stackoverflow.com': 1, 'www.google.com': 1, 'www.reddit.com': 1}
+status :	{200: 4, 403: 1, 500: 1}
+
+
+
+window :	(5, 10)
+method :	{'POST': 2, 'GET': 4}
+page   :	{'www.instagram.com': 1, 'www.github.com': 1, 'www.stackoverflow.com': 1, 'www.google.com': 1, 'www.reddit.com': 1, 'www.youtube.com': 1}
+status :	{403: 1, 200: 3, 500: 1, 400: 1}
+
+
+
+window :	(6, 11)
+method :	{'GET': 4, 'POST': 2}
+page   :	{'www.github.com': 1, 'www.stackoverflow.com': 1, 'www.google.com': 2, 'www.reddit.com': 1, 'www.youtube.com': 1}
+status :	{200: 4, 500: 1, 400: 1}
+
+
+
+window :	(7, 12)
+method :	{'GET': 4, 'POST': 2}
+page   :	{'www.stackoverflow.com': 1, 'www.google.com': 2, 'www.reddit.com': 2, 'www.youtube.com': 1}
+status :	{200: 3, 500: 1, 400: 1, 404: 1}
+
+
+
+window :	(8, 13)
+method :	{'POST': 2, 'GET': 4}
+page   :	{'www.google.com': 2, 'www.reddit.com': 2, 'www.youtube.com': 1, 'www.instagram.com': 1}
+status :	{500: 1, 200: 3, 400: 1, 404: 1}
+
+
+
+window :	(9, 14)
+method :	{'GET': 4, 'POST': 2}
+page   :	{'www.reddit.com': 2, 'www.youtube.com': 1, 'www.google.com': 1, 'www.instagram.com': 1, 'www.twitter.com': 1}
+status :	{200: 3, 400: 1, 404: 1, 500: 1}
+
+
